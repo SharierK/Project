@@ -1,0 +1,104 @@
+1. Introduction:
+The Car Rental App is a mobile application designed to allow users to easily search for, book, and manage car rentals. The app aims to provide a convenient and efficient way for users to find and rent cars for their transportation needs.
+1.1 Purpose:
+The purpose of the Car Rental App is to streamline the car rental process by providing users with a user-friendly platform to search for available cars, compare prices, make reservations, and manage their bookings.
+
+1.2 Scope:
+The Car Rental App will include features such as user registration, car search functionality, booking management, payment processing, user profiles, and ratings. The app will be available on both iOS and Android platforms.
+
+1.3 Intended Audience and Reading Suggestions
+This document is intended for developers, project managers, testers, and documentation writers. It is organized into sections covering different aspects of the Car Rent App, starting with an overview and proceeding to more detailed requirements.
+
+1.4 Product Scope
+The Car Rent App is a mobile application designed to facilitate the rental of cars. Its purpose is to provide users with a convenient platform to search for available rental cars, make reservations, manage bookings, and handle payments. The app aims to streamline the car rental process, providing benefits such as ease of use, time savings, and flexibility for both customers and car rental companies.
+
+1.5 References
+User Interface Style Guide
+Vision and Scope Document for the Car Rent App
+System Requirements Specifications
+Use Case Documents
+2. Overall Description
+2.1 Product Perspective
+The Car Rent App is a standalone product developed to meet the growing demand for convenient car rental services. It interfaces with car rental companies' databases and payment gateways to provide users with real-time access to available cars and seamless booking experiences.
+
+2.2 Product Functions
+User registration and login
+Car search and filtering
+Booking management
+Payment processing
+User feedback and rating system
+2.3 User Classes and Characteristics
+User classes include regular customers, occasional renters, and car rental administrators. Each class may have different levels of technical expertise and usage frequency.
+
+2.4 Operating Environment
+The app will operate on Android and iOS platforms, requiring internet connectivity to access rental databases and process transactions.
+
+2.5 Design and Implementation Constraints
+Compliance with data protection regulations
+Integration with existing payment gateways
+Compatibility with various mobile devices and screen sizes
+2.6 User Documentation
+User documentation will include user manuals, on-screen help guides, and tutorials accessible within the app.
+
+2.7 Assumptions and Dependencies
+Assumptions include the availability of reliable internet connections for users and the stability of third-party APIs used for payment processing and car rental data retrieval.
+
+3. External Interface Requirements
+3.1 User Interfaces
+The app will feature an intuitive and user-friendly interface with standard navigation elements, search bars, and interactive car listings.
+
+3.2 Hardware Interfaces
+The app will interact with device hardware such as GPS for location services and camera for user verification.
+
+3.3 Software Interfaces
+The app will interface with external databases for car rental listings and payment gateways for transaction processing.
+
+3.4 Communications Interfaces
+The app will utilize standard communication protocols such as HTTP for server interactions and email for user notifications.
+
+4. System Features
+4.1 Car Rental Search
+4.1.1 Description and Priority
+Allows users to search for available rental cars based on location, dates, and preferences. (High)
+
+4.1.2 Stimulus/Response Sequences
+User enters search criteria
+System retrieves relevant car listings
+User views search results
+4.1.3 Functional Requirements
+REQ-1: User can input location and rental dates for search
+REQ-2: System displays available cars matching search criteria
+REQ-3: User can filter search results by price, car type, and other parameters
+
+4.2 Booking Management
+4.2.1 Description and Priority
+Allows users to view, modify, and cancel existing bookings. (High)
+
+4.2.2 Stimulus/Response Sequences
+User selects booking from list
+System displays booking details
+User modifies or cancels booking
+4.2.3 Functional Requirements
+REQ-4: User can view booking details including car information and rental dates
+REQ-5: User can modify booking details
+REQ-6: User can cancel bookings
+
+5. Other Nonfunctional Requirements
+
+5.1 Performance Requirements: The app should load search results within 5 seconds under normal network conditions. This means that the app should be able to handle a large number of concurrent requests and process them efficiently. The app should also use caching and prefetching techniques to reduce the latency and bandwidth consumption.
+5.2 Safety Requirements: The app should encrypt user data to ensure privacy and comply with data protection regulations. This means that the app should use secure protocols and algorithms to transmit and store user data, such as personal information, payment details, and rental history.
+
+5.3 Security Requirements: User authentication should be implemented to prevent unauthorized access to sensitive information. This means that the app should require users to create and verify their accounts using email, phone number, or social media. The app should also use strong passwords and biometric authentication methods, such as fingerprint or face recognition. The app should also implement authorization mechanisms to restrict access to certain features or data based on the user’s role or permission level.
+5.4 Software Quality Attributes: The app should prioritize usability and reliability, ensuring a seamless and error-free user experience. This means that the app should have a user-friendly and intuitive interface that follows the design principles and guidelines for mobile apps. The app should also have a robust and stable architecture that can handle errors and exceptions gracefully. The app should also have a comprehensive testing and debugging process that ensures the quality and functionality of the app.
+5.5 Business Rules
+
+
+Users must register before booking any rental service.
+Reservations are only confirmed after successful payment.
+
+6. Other Requirements
+In addition to the previously specified requirements, the Car Rent App must also address the following:
+
+Localization Support: The app should support multiple languages, such as English, Bengali, Hindi, and Arabic, to accommodate users from different regions. The app should detect the user’s preferred language based on their device settings or allow them to choose from a list of available languages. The app should also display the currency, date, and time formats according to the user’s region.
+
+Integration with Loyalty Programs: The app should integrate with existing car rental loyalty programs, such as [Hertz Gold Plus Rewards], [Avis Preferred], or [Enterprise Plus], to allow users to earn and redeem rewards. The app should allow users to link their loyalty accounts with their app profiles and display their reward points and status. The app should also enable users to redeem their rewards for discounts, upgrades, or free rentals.
